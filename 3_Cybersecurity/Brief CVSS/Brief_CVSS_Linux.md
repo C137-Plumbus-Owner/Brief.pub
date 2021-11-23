@@ -23,7 +23,7 @@ Le contexte de notre vulnérabilité se place dans l'OS Linux OpenSUSE à l'int�
 voyont comment la note CVSS évolue avec les paramètres environnementaux :
 * **(AV) **L**ocal -> (MAV) **P**hysical
 
-[Le score de vulnérabilité](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:X/RL:O/RC:X/CR:X/IR:X/AR:X/MAV:P/MAC:X/MPR:X/MUI:X/MS:X/MC:X/MI:X/MA:X&version=3.1) CVSS devient un **6.3/10**
+[Le score de vulnérabilité](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:X/RL:O/RC:X/CR:X/IR:X/AR:X/MAV:P/MAC:X/MPR:X/MUI:X/MS:X/MC:H/MI:H/MA:H&version=3.1) CVSS devient un **6.3/10**
 
 
 ---
@@ -49,7 +49,7 @@ Qu'en est-il de notre score CVSS pour un poste dans les locaux d'une multination
 Exploitability Metrics
 (AV) **L**ocal -> (MAV) **A**djacent **N**etwork
 Le contexte de notre vulnérabilité se place dans l'OS linux KALI dans les locaux d'une multinationale.
-[Le score de vulnérabilité](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:P/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:X/RL:O/RC:X/CR:X/IR:X/AR:X/MAV:A/MAC:X/MPR:X/MUI:X/MS:X/MC:X/MI:X/MA:X&version=3.1) CVSS devient un **6.2/10**
+[Le score de vulnérabilité](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:P/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:X/RL:O/RC:X/CR:X/IR:X/AR:X/MAV:A/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:H&version=3.1) CVSS devient un **6.2/10**
 
 Le score monte, car on pourrait, selon le contexte, accéder à l'intégralité du service informatique après la réalisation de l'attaque.
 
@@ -80,7 +80,7 @@ Le contexte de notre vulnérabilité se place dans l'OS linux
 VoyonS comment la note CVSS évolue avec les paramètres environnementaux :
 
 * Metrics :Confidentiality (low) Integrity(Low) Availability(Low)
-[Le score de vulnérabilité]()du calculateur Nist avec les facteurs environnementaux:
+[Le score de vulnérabilité](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:X/RL:O/RC:X/CR:X/IR:X/AR:X/MAV:L/MAC:X/MPR:X/MUI:X/MS:X/MC:L/MI:L/MA:L&version=3.1)du calculateur Nist avec les facteurs environnementaux:
 Notre score , il atteint le score CVSS **5.1/10**
 * Metrics :Confidentiality (None) Integrity(None) Availability(None)
 _Dans un contexte ou les métriques CIA serais insignifiants [le score de vulnérabilité](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:X/RL:O/RC:X/CR:X/IR:X/AR:X/MAV:L/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N&version=3.1)du calculateur Nist avec les facteurs environnementaux:

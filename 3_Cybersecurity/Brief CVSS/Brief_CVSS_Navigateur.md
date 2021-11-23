@@ -26,7 +26,7 @@ Le contexte de notre vulnérabilité se place dans le navigateur edge sur un pos
 * **(AV) **N**etwork -> (MAV) **P**hysical
 * **(AC) **L**ow -> (MAC) **H**igh
 
-[Le score de vulnérabilité](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/CR:X/IR:X/AR:X/MAV:P/MAC:H/MPR:X/MUI:X/MS:X/MC:X/MI:X/MA:X&version=3.1) global devient **6.3/10**
+[Le score de vulnérabilité](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/CR:X/IR:X/AR:X/MAV:P/MAC:H/MPR:X/MUI:X/MS:X/MC:H/MI:H/MA:H&version=3.1) global devient **6.3/10**
 
 Ces deux facteurs sont les raisons de la baisse du score, Premièrement le bunker est surveillé en continu donc cela rend l'accès physique à l'ordinateur extrêmement complexe.
 Ensuite l'acces depuis l'éxtérieur est impossible, le Bunker ne possède pas d'accès au réseau externe ce qui rend la falsification compliquée dans notre cas.

@@ -27,7 +27,7 @@ Le contexte de notre vulnérabilité se place dans l'OS Montery sur Iphone 12 pr
 voyons comment la note CVSS évolue avec les paramètres environnementaux :
 * **(AV) **L**ocal -> (MAV) **P**hysical
 
-[Le score de vulnérabilité](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2021-30919&vector=AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H&version=3.1&source=NIST) devient un **6.3/10**
+[Le score de vulnérabilité](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:X/RL:O/RC:X/CR:X/IR:X/AR:X/MAV:P/MAC:X/MPR:X/MUI:X/MS:X/MC:H/MI:H/MA:H&version=3.1) devient un **6.3/10**
 
 L'agent est isolé, tant qu'un zombie CPC ne lui décroche pas son téléphone des mains il est moins vulnérable.
 
@@ -60,7 +60,7 @@ Qu'en est-il du notre score CVSS pour un poste dans les locaux d'une multination
 Exploitability Metrics
 (AV) **L**ocal -> (MAV) **A**djacent **N**etwork
 
-[Le score de vulnérabilité](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:P/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N/E:X/RL:O/RC:X/CR:X/IR:X/AR:X/MAV:A/MAC:X/MPR:X/MUI:X/MS:X/MC:X/MI:X/MA:X&version=3.1) du calculateur Nist avec les facteurs environnementaux :
+[Le score de vulnérabilité](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:P/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N/E:X/RL:O/RC:X/CR:X/IR:X/AR:X/MAV:A/MAC:X/MPR:X/MUI:X/MS:X/MC:L/MI:X/MA:X&version=3.1) du calculateur Nist avec les facteurs environnementaux :
 Notre score monte, il atteint la note de **4.1/10**
 L'entreprise étant ouvert sur l'extérieur augmente grandement la note, on peut néamoins espérer que les mises à jour de sécurité sont faites et que la vulnérabilité ne soit plus existante. 
 
