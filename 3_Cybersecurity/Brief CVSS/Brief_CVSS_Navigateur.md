@@ -8,24 +8,23 @@
 
 [cvedetails](https://www.cvedetails.com/cve/CVE-2021-38669/)
 [nvd.nist](https://nvd.nist.gov/vuln/detail/CVE-2021-38669)
-
-**NVD Publish Date :**  
-2021-09-15  
-**NVDLast Update Date :**  
+**NVD Publish Date :** 
+2021-09-15 
+** NVDLast Update Date :**
 2021-09-28
 * [Base score](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?name=CVE-2021-38669&vector=AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H&version=3.1&source=NIST)
 Nous donne un score CVSS de **8.8/10** (légèrement plus haut que sur cvedetails.com
 Une mises à jour de Microsoft du 9 septembre 2021 a résolu la vulnérabilité :
 le score sur le temps modifie la note pour un score CVSS de **7.7/10**
-Le risque est moindre car une correction à été appliqué. 
+Le risque est moindre car un correctif à été appliqué. 
 [msrc.microsoft.com](https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2021-38669)
 
-Qu'en est-il de notre score CVSS pour un poste dans un Bunker russe ?
+Qu'en est-il de notre score CVSS pour un poste dans ce Bunker russe ?
 
-Le contexte de notre vulnérabilité se place dans le navigateur edge sur un poste informatique dans bunker isolé du réseau WAN, seule une attaque en local est possible voyons comment la note évolue avec les paramètres environnementaux :
+Le contexte de notre vulnérabilité se place dans le navigateur edge sur un poste informatique dans bunker isolé du réseau WAN, seule une attaque en physique est possible voyons comment la note évolue avec les paramètres environnementaux :
 
-* (AV) **N**etwork -> (MAV) **P**hysical
-* (AC) **L**ow -> (MAC) **H**igh
+* **(AV) **N**etwork -> (MAV) **P**hysical
+* **(AC) **L**ow -> (MAC) **H**igh
 
 [Le score de vulnérabilité](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/CR:X/IR:X/AR:X/MAV:P/MAC:H/MPR:X/MUI:X/MS:X/MC:H/MI:H/MA:H&version=3.1) global devient **6.3/10**
 
@@ -43,7 +42,6 @@ Acceuil : un rang de 3 postes allumés*
 
 [cvedetails](https://www.cvedetails.com/cve/CVE-2021-21140/)
 [nvd.nist](https://nvd.nist.gov/vuln/detail/CVE-2021-21140)
-
 **NVD Published Date:**  
 02/09/2021  
 **NVD Last Modified:**  
@@ -55,7 +53,7 @@ Une mise à jour de sécurité a résolu la vulnérabilité :
 Source :Please see [Security Update Guide Supports CVEs Assigned by Industry Partners](https://msrc-blog.microsoft.com/2021/01/13/security-update-guide-supports-cves-assigned-by-industry-partners/) for more information._
 
 Qu'en est-il de notre score CVSS pour un poste dans une tour de 50 étages ?
-* Il n'est pas extrême d'accéder au poste physiquement
+* Il n'est pas extrêmemdnt difficile d'accéder au poste physiquement
 * L'attaque se déploie assez facilement une fois devant un poste
 * /!\ Il est intégré au réseau de l'entreprise, qui lui-même est lié au SI du groupe.
 
@@ -74,7 +72,6 @@ L'entreprise étant ouvert sur l'extérieur augmente grandement la note, on peut
 
 [cvedetails](https://www.cvedetails.com/cve/CVE-2020-15684/)
 [vnd.nist](https://nvd.nist.gov/vuln/detail/CVE-2020-15684)
-
 **NVD Published Date:**  
 10/22/2020  
 **NVD Last Modified:**  
@@ -88,9 +85,9 @@ Qu'en est-il de notre score dans un environnement d'une salle sécurisé ?
 - L'(AV) ne peut être que **L**ocal
 - Les mesures d'impact ne peuvent pas être en **H**igh
 
-[Résultat](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:X/RL:O/RC:X/CR:X/IR:X/AR:X/MAV:L/MAC:L/MPR:N/MUI:N/MS:U/MC:L/MI:L/MA:L&version=3.1) du calculateur Nist avec les facteurs environnementaux:
+[Résultat](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:X/RL:O/RC:X/CR:X/IR:X/AR:X/MAV:L/MAC:L/MPR:N/MUI:N/MS:U/MC:H/MI:H/MA:H&version=3.1) du calculateur Nist avec les facteurs environnementaux:
 
-En prenant en compte qu'un patch existe depuis la version 82 de Firefox notre CVSS global descend à **5.7/10**.
+En prenant en compte qu'un patch existe depuis la version 82 de Firefox notre CVSS global descend à **8/10**.
 
 Les répercutions de l'exploitation de la vulnérabilité [CVE-2020-15684](https://nvd.nist.gov/vuln/detail/CVE-2020-15684) en local sur un navigateur Firefox dans une salle sécurisé est nettement moins critique.
 

@@ -74,14 +74,14 @@ Qu'en est-il de notre score CVSS pour un poste dans une salle sécurisé ?
 
 Le contexte de notre vulnérabilité se place dans l'OS linux
 - L'(AV) ne peut être que **L**ocal
-- Les mesures d'impacts ne peuvent pas être en **(H)**igh
+- Les mesures d'impacts ne peuvent être que **(H)**igh
 
 
 VoyonS comment la note CVSS évolue avec les paramètres environnementaux :
 
 * Metrics :Confidentiality (low) Integrity(Low) Availability(Low)
-[Le score de vulnérabilité](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:X/RL:O/RC:X/CR:X/IR:X/AR:X/MAV:L/MAC:X/MPR:X/MUI:X/MS:X/MC:L/MI:L/MA:L&version=3.1)du calculateur Nist avec les facteurs environnementaux:
-Notre score , il atteint le score CVSS **5.1/10**
+[Le score de vulnérabilité](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:X/RL:O/RC:X/CR:X/IR:X/AR:X/MAV:L/MAC:X/MPR:X/MUI:X/MS:X/MC:H/MI:H/MA:H&version=3.1)du calculateur Nist avec les facteurs environnementaux:
+Notre score , il atteint le score CVSS **7.5/10**
 * Metrics :Confidentiality (None) Integrity(None) Availability(None)
 _Dans un contexte ou les métriques CIA serais insignifiants [le score de vulnérabilité](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:X/RL:O/RC:X/CR:X/IR:X/AR:X/MAV:L/MAC:X/MPR:X/MUI:X/MS:X/MC:N/MI:N/MA:N&version=3.1)du calculateur Nist avec les facteurs environnementaux:
 Notre score CVSS devient **0/10**_
